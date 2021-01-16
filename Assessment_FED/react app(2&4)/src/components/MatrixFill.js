@@ -11,6 +11,7 @@ class Comments extends Component {
     let finalArray = arrayVal.filter((val) => val && val > -1);
     this.setState({ inputArr: finalArray });
   };
+
   render() {
     let originalArr = this.state.inputArr;
     let arrCopy = [...originalArr];

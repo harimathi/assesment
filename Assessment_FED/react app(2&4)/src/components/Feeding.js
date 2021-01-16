@@ -9,6 +9,7 @@ class Feeding extends Component {
     if (!textVal) {
       return;
     }
+
     const data = {
       id: this.props.posts.length + 1,
       title: textVal,
@@ -23,6 +24,7 @@ class Feeding extends Component {
     if (!textVal) {
       return;
     }
+
     const data = {
       postId: this.props.comments.length + 1,
       name: textVal,
@@ -60,6 +62,7 @@ class Feeding extends Component {
     );
   }
 }
+
 const mapStateToProps = (state) => {
   return {
     posts: state.posts,
