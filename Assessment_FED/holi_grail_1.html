@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Task 1</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            text-align: center;
+            margin: 0px;
+            font-family: monospace;
+            margin: 0px;
+        }
+
+        .wrapper {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            height: 100vh;
+        }
+
+        .header {
+            height: 100px;
+            max-height: 100px;
+            background: #583d72;
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .left-nav {
+            width: 200px;
+            max-width: 200px;
+            background: #9f5f80;
+            order: 1;
+            flex: 1;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .content {
+            background: #ffba93;
+            flex: 2;
+            order: 2;
+            height: calc(100% - 140px);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .right-nav {
+            width: 100px;
+            max-width: 100px;
+            background: #ff8e71;
+            flex: 1;
+            order: 3;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .footer {
+            height: 40px;
+            max-height: 40px;
+            background: #d35d6e;
+            order: 4;
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="header">
+            header
+        </div>
+        <div class="left-nav">
+            left nav
+        </div>
+        <div class="content">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea quia laudantium sunt, nihil quas iste maxime
+            illo cupiditate, neque dolore deserunt est, possimus quibusdam. Ipsa ex quaerat earum nihil sunt.
+        </div>
+        <div class="right-nav">
+            right-nav
+        </div>
+        <div class="footer">
+            footer
+        </div>
+    </div>
+</body>
+
+</html>
